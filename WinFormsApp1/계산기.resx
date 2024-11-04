@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="display.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="display.Font" type="System.Drawing.Font, System.Drawing">
+    <value>굴림, 20.25pt, style=Bold</value>
+  </data>
+  <data name="display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 53</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="display.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="display.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="display.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;display.Name" xml:space="preserve">
+    <value>display</value>
+  </data>
+  <data name="&gt;&gt;display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;display.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;display.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ButtonAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 294</value>
+  </data>
+  <data name="ButtonAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ButtonAdd.Text" xml:space="preserve">
+    <value>＋</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdd.Name" xml:space="preserve">
+    <value>ButtonAdd</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdd.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 294</value>
+  </data>
+  <data name="ButtonPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ButtonPoint.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.Name" xml:space="preserve">
+    <value>ButtonPoint</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonZero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 294</value>
+  </data>
+  <data name="ButtonZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonZero.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ButtonZero.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonZero.Name" xml:space="preserve">
+    <value>ButtonZero</value>
+  </data>
+  <data name="&gt;&gt;ButtonZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonZero.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonZero.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonAllClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonAllClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 294</value>
+  </data>
+  <data name="ButtonAllClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonAllClear.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ButtonAllClear.Text" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="&gt;&gt;ButtonAllClear.Name" xml:space="preserve">
+    <value>ButtonAllClear</value>
+  </data>
+  <data name="&gt;&gt;ButtonAllClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonAllClear.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonAllClear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonSubtract.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonSubtract.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 197</value>
+  </data>
+  <data name="ButtonSubtract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonSubtract.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ButtonSubtract.Text" xml:space="preserve">
+    <value>－</value>
+  </data>
+  <data name="&gt;&gt;ButtonSubtract.Name" xml:space="preserve">
+    <value>ButtonSubtract</value>
+  </data>
+  <data name="&gt;&gt;ButtonSubtract.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSubtract.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonSubtract.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ButtonThree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 197</value>
+  </data>
+  <data name="ButtonThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonThree.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ButtonThree.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ButtonThree.Name" xml:space="preserve">
+    <value>ButtonThree</value>
+  </data>
+  <data name="&gt;&gt;ButtonThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonThree.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonThree.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ButtonTwo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 197</value>
+  </data>
+  <data name="ButtonTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ButtonTwo.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.Name" xml:space="preserve">
+    <value>ButtonTwo</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ButtonOne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 197</value>
+  </data>
+  <data name="ButtonOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonOne.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ButtonOne.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.Name" xml:space="preserve">
+    <value>ButtonOne</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ButtonMultiply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonMultiply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 100</value>
+  </data>
+  <data name="ButtonMultiply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonMultiply.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ButtonMultiply.Text" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.Name" xml:space="preserve">
+    <value>ButtonMultiply</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ButtonSix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonSix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 100</value>
+  </data>
+  <data name="ButtonSix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonSix.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ButtonSix.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.Name" xml:space="preserve">
+    <value>ButtonSix</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ButtonFive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonFive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 100</value>
+  </data>
+  <data name="ButtonFive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonFive.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ButtonFive.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.Name" xml:space="preserve">
+    <value>ButtonFive</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ButtonFour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonFour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 100</value>
+  </data>
+  <data name="ButtonFour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonFour.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ButtonFour.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ButtonFour.Name" xml:space="preserve">
+    <value>ButtonFour</value>
+  </data>
+  <data name="&gt;&gt;ButtonFour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonFour.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonFour.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ButtonDivide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonDivide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 3</value>
+  </data>
+  <data name="ButtonDivide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonDivide.Text" xml:space="preserve">
+    <value>÷</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.Name" xml:space="preserve">
+    <value>ButtonDivide</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ButtonNine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonNine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 3</value>
+  </data>
+  <data name="ButtonNine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonNine.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonNine.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.Name" xml:space="preserve">
+    <value>ButtonNine</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ButtonEight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonEight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 3</value>
+  </data>
+  <data name="ButtonEight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonEight.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonEight.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.Name" xml:space="preserve">
+    <value>ButtonEight</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ButtonSeven.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 20.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonSeven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ButtonSeven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 91</value>
+  </data>
+  <data name="ButtonSeven.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonSeven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.Name" xml:space="preserve">
+    <value>ButtonSeven</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 411</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ButtonAdd" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ButtonPoint" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ButtonZero" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ButtonAllClear" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ButtonSubtract" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ButtonThree" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ButtonTwo" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ButtonOne" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ButtonMultiply" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ButtonSix" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ButtonFive" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ButtonFour" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ButtonDivide" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ButtonNine" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ButtonEight" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ButtonSeven" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ButtonResult.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ButtonResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 15.75pt, style=Bold</value>
+  </data>
+  <data name="ButtonResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 447</value>
+  </data>
+  <data name="ButtonResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 48</value>
+  </data>
+  <data name="ButtonResult.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonResult.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;ButtonResult.Name" xml:space="preserve">
+    <value>ButtonResult</value>
+  </data>
+  <data name="&gt;&gt;ButtonResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>ko-KR</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>430, 495</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAD/////2NjY/yMjI/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/IyMj/9jY
+        2P///////////7y8vP8HBwf/ExMT/yQkJP8VFRX/JCQk/wAAAP8AAAD/MzMz/xYWFv8pKSn/JSUl/wYG
+        Bv+8vLz///////////+7u7v/BQUF/ygoKP+urq7/s7Oz/1xcXP8AAAD/AAAA/2ZmZv+dnZ3/YmJi/0BA
+        QP8FBQX/u7u7////////////u7u7/wYGBv8WFhb/t7e3/9zc3P9BQUH/AAAA/wEBAf82Njb/i4uL/52d
+        nf8SEhL/BgYG/7u7u////////////7u7u/8FBQX/KCgo/19fX/9HR0f/Tk5O/wAAAP8DAwP/aGho/zAw
+        MP9VVVX/Gxsb/wYGBv+7u7v///////////+7u7v/BwcH/wAAAP8DAwP/BwcH/wAAAP8AAAD/AAAA/wIC
+        Av8BAQH/AAAA/wAAAP8HBwf/u7u7////////////u7u7/wcHB/8AAAD/PDw8/21tbf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/BwcH/7u7u////////////7u7u/8HBwf/RkZG/6SkpP/ExMT/ZWVl/wsL
+        C/8LCwv/ZWVl/3l5ef96enr/SUlJ/wgICP+7u7v///////////+7u7v/BwcH/zs7O/+Xl5f/vLy8/1ZW
+        Vv8KCgr/CQkJ/1ZWVv9oaGj/aGho/z4+Pv8ICAj/u7u7////////////u7u7/wcHB/8AAAD/Nzc3/2Nj
+        Y/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/BwcH/7u7u////////////7u7u/8HBwf/AAAA/wEB
+        Af8CAgL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wcHB/+7u7v///////////+7u7v/BwcH/0ND
+        Q/+Ghob/hYWF/4WFhf+FhYX/hYWF/4WFhf+Ghob/hoaG/0NDQ/8HBwf/u7u7////////////u7u7/wsL
+        C/+srKz///////////////////////////////////////////+srKz/CwsL/7u7u////////////7u7
+        u/8JCQn/nZ2d//39/f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/9/f3/nZ2d/wkJCf+7u7v/////////
+        //+8vLz/BwcH/x8fH/9ISEj/SUlJ/0lJSf9JSUn/SUlJ/0lJSf9JSUn/SEhI/x8fH/8HBwf/vLy8////
+        ////////2NjY/yMjI/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/IyMj/9jY
+        2P//////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>계산기</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>계산기</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
